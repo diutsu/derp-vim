@@ -4,13 +4,20 @@ vim configuration and compilation of plugins and stuff.
 
 Working out of the box.  For best results, I recomend vim 7.3.x or higher
 
-Some crazy stuff is going on the:
-.vimrc 
+Download:
+===
+$ cd ~ <br>
+$ git clone git://github.com/diutsu/derp-vim/
+
+<br>
+check the crazy and messy stuff going on:<br>
+.vimrc
+
 
 Plugins included:
 ===
 - pathogen
-amd also the following plugins:
+and also the following plugins:
 - aSwitch
 - css_colors
 - delimitMate
