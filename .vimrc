@@ -4,6 +4,9 @@ call pathogen#infect()
 " call pathogen#helptags()
 " call pathogen#runtime_append_all_bundles()
 
+set rtp+=/home/diutsu/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+set laststatus=2
+set t_Co=256
 
 filetype plugin indent on
 set nocompatible
@@ -91,6 +94,7 @@ syntax on
 " default color
 set t_Co=256
 colorscheme molokai
+set background=dark
 
 if has("gui_running")
     set background=dark
