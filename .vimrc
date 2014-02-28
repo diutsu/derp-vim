@@ -56,7 +56,7 @@ endif
 set showtabline=2 " always show tab bar
 set cul "hightlight current line"
 set wildmenu  "autocomplete menu"
-set wildmode=list:longest,full "autocomplete text"
+set wildmode=longest:full,full "autocomplete text"
 set title " show document title on window
 set ruler " show line and char pos
 set showmode "show current mode"
