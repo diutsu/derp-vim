@@ -126,7 +126,7 @@ hi LineNr ctermfg=Darkgrey
 set gfn=DejaVu\ Sans\ Mono\ 10
 set shell=/bin/bash
 
-
+au BufWritePost *.tex !pdflatex <afile>
 " some auto expand text
 ab imavc int main(int argc, char**argv) {<CR><CR>return 0;<CR>}<UP><TAB>
 ab psvm public static void main(String[] args) {<CR><CR>}<UP><TAB>
