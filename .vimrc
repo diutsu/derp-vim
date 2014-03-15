@@ -94,7 +94,6 @@ syntax on
 " default color
 set t_Co=256
 colorscheme molokai
-set background=dark
 
 if has("gui_running")
     set background=dark
