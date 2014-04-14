@@ -4,7 +4,9 @@ call pathogen#infect()
 " call pathogen#helptags()
 " call pathogen#runtime_append_all_bundles()
 
-set rtp+=/home/diutsu/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+" set rtp+=/home/diutsu/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+
+
 set laststatus=2
 set t_Co=256
 
@@ -99,6 +101,21 @@ if has("gui_running")
     set background=dark
     colorscheme solarized
 endif
+
+let g:molokai_original = 1
+let g:rehash256 = 1
+
+" Vim-airline
+let g:airline_theme = "powerlineish"
+let g:airline_powerline_fonts = 1
+let g:airline_mode_map = {
+     \ 'n'  : 'NORMAL',
+     \ 'i'  : 'INSERT',
+     \ 'R'  : 'REPLCE',
+     \ 'v'  : 'VISUAL',
+     \ 'V'  : 'V LINE',
+     \ }
+
 
 " UNDO FILE "
 "set undofile
